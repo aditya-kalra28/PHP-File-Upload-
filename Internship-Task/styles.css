@@ -1,0 +1,133 @@
+body{
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.logo{
+    padding: 4%;
+}
+
+h1{
+    padding-bottom: 5%;
+    font-size: 1.75rem;
+    color: #0d104a;
+}
+
+table{
+    display: inline;
+
+}
+
+.top-row{
+    background-color: #0d104a;
+    color: white;
+}
+
+td{
+    width: 15rem;
+    text-align: center;
+    font-size: 1.25rem;
+}
+
+.delete, .view{
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 1.25rem;
+}
+
+.delete{
+    color: red;
+}
+
+.view{
+    color: darkblue;
+}
+
+.add-file-btn{
+    margin-top: 3rem;
+    border: none;
+    background-color: #0d104a;
+    color: white;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    padding: 0.5% 4%;
+    cursor: pointer;
+}
+
+input{
+    text-align: center;
+    padding: 0;
+    width: 20rem;
+    border: none;
+    background-color: white;
+    color:#0d104a;
+    margin-bottom: 1%;
+    height: 3rem;
+    font-size: 1rem;
+    font-weight:500;
+    outline:#0d104a solid;
+    border-radius: 10px;
+}
+
+::placeholder{
+    color:#0d104a;
+    font-size: 1rem;
+}
+
+label{
+    display: inline-block;
+    width: 20rem;
+    border: none;
+    color: #0d104a;
+    background-color: white;
+    margin-bottom: 1%;
+    line-height: 3rem;
+    align-items: center;
+    font-size:1rem ;
+    font-weight: 500;
+    border: #0d104a solid;
+    border-radius: 10px;
+}
+
+
+.hidden{
+    outline: none;
+}
+
+::-webkit-file-upload-button{
+    border: none;
+    background-color: white;
+    margin: 0;
+    width: 0;
+    height: 0;
+}
+
+
+button#submit{
+    width: 20rem;
+    border: none;
+    background-color: #0d104a;
+    color: white;
+    margin-bottom: 3%;
+    height: 3rem;
+    font-size: 1rem;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#file-list{
+    width: 20rem;
+    border: none;
+    background-color: #0d104a;
+    color: white;
+    margin-bottom: 3%;
+    height: 3rem;
+    font-size: 1rem;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
